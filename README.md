@@ -1,50 +1,23 @@
-# React + TypeScript + Vite
+# Proyecto II: Sitio Web: Haus der Musik - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Instrucciones
+El desarrollo de los sprint con React son procesos de construcción del sistema que se dan en base a los backlog, su desarrollo en tiempo y forma son importantes para cumplir con lo asentado en el documento de seguimiento, así como también es relevante el documentar, el o los motivos por los cuales no se logra el cumplimiento.
 
-Currently, two official plugins are available:
+## Integrantes/Responsables:
+LG/SM: Leonardo García/Scrum Master.
+JG/PO: Joel Gonzalez/Product Owner.  
+MR/DEV: Mauricio Rascón/Developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## MR/DEV: Cambios HM-08 (30/10/24).
+Añadido logo al lado izquierdo del h1 en el header
+Actualizado el HTML para incluir una etiqueta img con la clase 'logo'
+Ajustado el CSS para alinear el logo y el h1 con Flexbox
+Reubicación de elementos nav debajo del h1
+Modificado el CSS para usar Flexbox y alinear los elementos li debajo del h1
+Cambios en colores y tipografías
+Declarados nuevos colores de fondo para las clases verde, ligero, ciudad, viena e italiano
+Actualizado el CSS para declarar font-family y font-weight en las clases correspondientes
+Mejoras en la estructura y legibilidad del HTML y CSS
+Optimizado el HTML y CSS para mejorar la organización y claridad del código
+Añadidos comentarios descriptivos en el CSS para facilitar la comprensión
+Todos los cambios probados y verificados
