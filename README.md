@@ -30,3 +30,11 @@ El desarrollo de los sprint con React son procesos de construcción del sistema 
 - Ajustar estilos CSS para que el contenido principal tenga margen superior, evitando que quede oculto debajo del header. 
 - Convertir componentes JSX a TSX para utilizar TypeScript. 
 - Solucionar errores de configuración y dependencias en Vite.
+
+## MR/DEV: Cambios generales (11/11/24).
+### Agregar componentes Profesores, Contact 
+- Crear componente Contact con boton de Whatsapp. 
+- Crear componente Profesores con profesores de la escuela. 
+- Estilizar y ajustar estilos CSS dentro de index.css para mejorar visibilidad y centrar los elementos. 
+- Solucionar errores de configuración y visualizaciǿn. 
+- Agregar información del avance sprint a README.

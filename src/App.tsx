@@ -1,6 +1,8 @@
 import './App.css';
 import Header from './Header';
 import WelcomeSection from './WelcomeSection';
+import Contacto from './Contact';
+import Profesores from './Profesores';
 
 function App() {
 
@@ -8,6 +10,8 @@ function App() {
     <div className="App">
     <Header />
     <WelcomeSection />
+    <Profesores />
+    <Contacto />
     </div>
   )
 }
