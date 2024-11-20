@@ -38,3 +38,13 @@ El desarrollo de los sprint con React son procesos de construcción del sistema 
 - Estilizar y ajustar estilos CSS dentro de index.css para mejorar visibilidad y centrar los elementos. 
 - Solucionar errores de configuración y visualizaciǿn. 
 - Agregar información del avance sprint a README.
+
+## MR/DEV: HM-04 Fotos y Videos (20/11/24).
+### Añadir imágenes y crear nueva sección Galería
+- Se agregaron elementos de imagen arriba de cada div `feature` de la sección WelcomeSection.
+- Se agregaron elementos de imagen arriba de cada div `professor-card` dentro de la sección Profesores.
+- Se estilizaron en CSS las imágenes mencionadas para mejorar su visualización.
+- Se creó la sección Galería para alojar fotografías sobre la academia de música.
+- Se estilizó la sección Galería para una mejor presentación y usabilidad de las fotos.
+
+Estos cambios modifican la presentación visual de la aplicación, al añadir contenido multimedia que mejora la experiencia del usuario final.
