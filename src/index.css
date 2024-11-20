@@ -43,7 +43,7 @@
 .nav ul {
   display: flex;
   list-style: none;
-  margin: 0 auto;
+  margin: 0 150px 0 0;
 }
 
 .nav li {
@@ -71,7 +71,6 @@
 
 /* Estilo Welcome Section */
 .welcome-section {
-  padding: 40px 20px;
   padding: 0 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -105,6 +104,16 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   border: 1px solid #ccc;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+}
+
+.feature img {
+  border-radius: 20px;
 }
 
 .feature h2 {
@@ -120,9 +129,10 @@
 
 /* Estilo Profesores */
 .professors-section {
-  padding: 0px;
-  background-color: #f9f9f9;
-  text-align: center;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .professors-section h2 {
@@ -131,10 +141,11 @@
   color: #333;
 }
 
-.professors-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+.professors {
   gap: 20px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
 }
 
 .professor-card {
@@ -150,9 +161,7 @@
 }
 
 .professor-card img {
-  width: 100%;
   border-radius: 50%;
-  height: 200px;
   object-fit: cover;
 }
 
@@ -167,6 +176,44 @@
   color: #666;
 }
 
+/* Estilo Galeria */
+.fotosvideos {
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.gallery h1 {
+    font-size: 2.5em;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+.gallery .fotos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  border-radius: 15%;
+  padding: 5%;
+}
+
+.gallery .videos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gallery-item {
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-10px);
+}
+
 /* Estilo Contact */
 #contacto {
   text-align: center;
@@ -174,8 +221,7 @@
 }
 
 .logowa {
-  width: 20px;
-  height: 20px;
+  width: 50px;
 }
 
 .btn-whatsapp {
